@@ -9,7 +9,7 @@ This project fetches real-time stock market data, calculates technical indicator
 ## 🔥 Features
 
 - Fetches live stock data using yFinance
-- Calculates 20-day Moving Average
+- Calculates 50-day Moving Average
 - Computes 14-day RSI (Relative Strength Index)
 - Uses OpenAI API for natural-language analysis
 - Secure API key handling using environment variables
