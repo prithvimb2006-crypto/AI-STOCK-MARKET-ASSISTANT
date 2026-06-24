@@ -13,7 +13,7 @@ tools_schema = [
         "type": "function",
         "function": {
             "name": "analyze_stock",
-            "description": "Analyze stock indicators like price, MA50, and RSI",
+            "description": "Analyze stock indicators like price, MA100, and RSI",
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -42,6 +42,7 @@ def run_assistant(user_query):
     )
 
     message = response.choices[0].message
+    
 
     if message.tool_calls:
         tool_call = message.tool_calls[0]
